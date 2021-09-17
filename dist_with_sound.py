@@ -57,15 +57,15 @@ class HC_SR04:
 
         return sound
 
-# noteFd = pygame.mixer.Sound("/home/pi/Yura/Projects/Tones/AudioFiles/Piano_F#.wav")  #notes initialisation
-# noteG = pygame.mixer.Sound("/home/pi/Yura/Projects/Tones/AudioFiles/Piano_G.wav")
-# noteGd = pygame.mixer.Sound("/home/pi/Yura/Projects/Tones/AudioFiles/Piano_G#.wav")
-# noteA = pygame.mixer.Sound("/home/pi/Yura/Projects/Tones/AudioFiles/Piano_A.wav")
+# noteFd = pygame.mixer.Sound("AudioFiles/Piano_F#.wav")  #notes initialisation
+# noteG = pygame.mixer.Sound("AudioFiles/Piano_G.wav")
+# noteGd = pygame.mixer.Sound("AudioFiles/Piano_G#.wav")
+# noteA = pygame.mixer.Sound("AudioFiles/Piano_A.wav")
 
-noteFd = pygame.mixer.Sound("/home/pi/Yura/Projects/Tones/AudioFiles/NoteF#.wav")  #notes initialisation
-noteG = pygame.mixer.Sound("/home/pi/Yura/Projects/Tones/AudioFiles/NoteG.wav")
-noteGd = pygame.mixer.Sound("/home/pi/Yura/Projects/Tones/AudioFiles/NoteG#.wav")
-noteA = pygame.mixer.Sound("/home/pi/Yura/Projects/Tones/AudioFiles/NoteA.wav")
+noteFd = pygame.mixer.Sound("AudioFiles/NoteF#.wav")  #notes initialisation
+noteG = pygame.mixer.Sound("AudioFiles/NoteG.wav")
+noteGd = pygame.mixer.Sound("AudioFiles/NoteG#.wav")
+noteA = pygame.mixer.Sound("AudioFiles/NoteA.wav")
 
 s1 = HC_SR04(11, 13)  #sensors initialisation
 s2 = HC_SR04(15, 16)
